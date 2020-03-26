@@ -54,6 +54,7 @@
     padding: 24px;
     border-radius: 8px;
     position: relative;
+    box-shadow: 5px 5px 10px #0000003d;
 }
 
 .profile-container ul li button{
