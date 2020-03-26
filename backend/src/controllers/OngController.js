@@ -1,4 +1,4 @@
-const connection = require("../database/connection");
+const connection = require("../database/connection"); // Banco de dados
 const crypto = require('crypto') // Modulo Criptografia 
 module.exports = {
     // Listagem de ONGS
