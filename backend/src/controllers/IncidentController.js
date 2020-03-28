@@ -14,15 +14,14 @@ module.exports = {
             .limit(5)// Limitando as Pgs
             .offset((page - 1) * 5)
             .select([
-                'incidents.*', 
-                'ongs.name', 
-                'ongs.email', 
-                'ongs.whatsapp', 
-                'ongs.city', 
-                'ongs.uf'],)
+                'incidents.*',
+                'ongs.name',
+                'ongs.email',
+                'ongs.whatsapp',
+                'ongs.city',
+                'ongs.uf'])
 
         res.header('X-Total-Count', count['count(*)'])
-
         return res.json(incidents);
     },
 

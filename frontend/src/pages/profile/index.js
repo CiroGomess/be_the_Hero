@@ -68,7 +68,7 @@ export default function Profile(params) {
                         <p>{Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(incidents.value)}</p>
 
                         <button onClick={()=> hanfleDeleteIncident(incidents.id)} type="button">
-                            <FiTrash2 size={20} color="a8a8b3" />
+                            <FiTrash2 size={20} color="#E02041" />
                         </button>
                     </li>
                 ))}
