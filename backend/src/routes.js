@@ -6,8 +6,6 @@ const IncidentsController = require('./controllers/IncidentController')
 const ProfilerController = require('./controllers/ProfileController')
 const SectionController = require('./controllers/SectionController')
 
-
-
 // Rotas Login
 routes.post('/sessions', celebrate({
     [Segments.BODY]: Joi.object().keys({
